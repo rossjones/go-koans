@@ -1,12 +1,10 @@
 ## Go Koans
 
-Want to learn Go? Want to do it easily? Want to have fun with it? Want lots of money?
-
-I can't help you out with that last one. Sorry.
+Teaches basic Go concepts and syntax by example.
 
 ### Usage
 
-  1. [Install Go](http://code.google.com/p/go/downloads/list).
+  1. Install Go with your favorite package manager or from [the official downloads link](http://code.google.com/p/go/downloads/list).
   2. Clone this repo.
   3. Run `go test`.
   4. Make the failing tests pass, by replacing these types of `__variables__` with real values.
@@ -26,14 +24,15 @@ run the Go website locally with `godoc -http=:8080`.
 
 Add this to your `~/.vimrc` file:
 
-    set rtp+=/usr/local/go/misc/vim
-    filetype plugin indent on
-    syntax on
+```viml
+set rtp+=/usr/local/go/misc/vim
+filetype plugin indent on
+syntax on
+```
 
-### Benefaxion
+### Go-mode in Emacs
 
-Anyway, diggin' it? If so, endorse me:
-
-[![endorse](http://api.coderwall.com/sdegutis/endorse.png)](http://coderwall.com/sdegutis)
-
-Thanks!
+```lisp
+(add-to-list 'load-path "/usr/local/opt/go/misc/emacs" t)
+(require 'go-mode-load)
+```
