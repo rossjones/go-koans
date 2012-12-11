@@ -20,17 +20,17 @@ Bookmark the [spec](http://golang.org/ref/spec) and the
 [packages listing](http://golang.org/pkg/). You can also
 run the Go website locally with `godoc -http=:8080`.
 
-### Go support in Vim
+### For Vim users
 
 Add this to your `~/.vimrc` file:
 
 ```viml
-set rtp+=/usr/local/go/misc/vim
+set rtp+=/usr/local/opt/go/misc/vim
 filetype plugin indent on
 syntax on
 ```
 
-### Go-mode in Emacs
+### For Emacs users
 
 ```lisp
 (add-to-list 'load-path "/usr/local/opt/go/misc/emacs" t)
