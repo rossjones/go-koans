@@ -15,7 +15,8 @@ func aboutAllocation() {
 	slice := make([]int, 3)
 	assert(len(slice) == __int__) // make() creates slices of a given length
 
-	slice = make([]int, 3, __int__) // but can also take an optional capacity
+  change_me := 0
+	slice = make([]int, 3, change_me) // but can also take an optional capacity
 	assert(cap(slice) == 20)
 
 	m := make(map[int]string)
